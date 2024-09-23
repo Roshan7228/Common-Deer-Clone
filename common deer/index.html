@@ -1,0 +1,454 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" href="image/nav logo/images1.png" type="image/webp">
+    <title>Common Deer || Made in USA</title>
+    <!-- style css -->
+    <link rel="stylesheet" href="css/style.css">
+    <!-- bootstap css cdn -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <!-- bootstap bundle file -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+        crossorigin="anonymous"></script>
+    <!-- icone cdn -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/remixicon/4.2.0/remixicon.css"
+        referrerpolicy="no-referrer" />
+    <!-- font cdn -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+</head>
+
+<body>
+    <header>
+        <div class="overlay hidden"></div>
+        <!-- top navbar -->
+        <nav class="navbar container-fluid">
+            <a href="#" class="announcement-tag">
+                <div class="announcement">
+                    <p class="announcement-text">SAME DAY PICKUP available during open hours - OPEN 10:15 - 6 everyda
+                    </p>
+                </div>
+            </a>
+        </nav>
+        <!-- second nav bar -->
+        <nav class="second-nav">
+            <div class="logo-tag">
+                <a href="index2.html" class="logo-image-tage">
+                    <img src="image/nav logo/email_header_b238e17b-a27a-4b69-a448-2a0fc254bc62_630x.png"
+                        alt="logo-image">
+                </a>
+            </div>
+            <div class="login-page">
+                <ul>
+                    <li><a href="index3.html" class="Log">LOG IN</a></li>
+                    <li><a href="#" class="add">CART <span id="adds">(0)</span></a></li>
+                    <li><a href="#" class="searchbar-nav"><i class="ri-search-line"></i></a></li>
+                </ul>
+            </div>
+
+            <!-- modal -->
+
+            <div class="modal-hidden hidden">
+                <div class="nav-bar">
+                    <h1>SHOPPING CART</h1>
+                    <div class="icone">
+                        <i class="ri-close-line close"></i>
+                    </div>
+                </div>
+                <div class="content">
+                    <p>Your cart is currently empty.</p>
+                    <span class="contenemty"><i class="ri-emoji-sticker-line"></i></span>
+                    <a href="#" class="c-btn">Shop now</a>
+                </div>
+            </div>
+
+
+
+            <!-- modal 2 -->
+            <div class="modal-hidden1 hidden">
+                <div class="nav-bar">
+                    <h1>SEARCH</h1>
+                    <div class="icone">
+                        <i class="ri-close-line " id="close1"></i>
+                    </div>
+                </div>
+                <div class="contentt">
+                    <input type="text" name="" id="SEARCH" placeholder="Search our store...">
+                    <i class="ri-search-line" id="Searchbar"></i>
+                    <div class="searc-nav">
+                        <h4 class="search__nav-title">Main Menu</h4>
+                        <ul>
+                            <li class="search__nav-item"><a href="#">Newly Online</a></li>
+                            <li class="search__nav-item"><a href="#">Gift Guides</a></li>
+                            <li class="search__nav-item"><a href="#">Vermont</a></li>
+                            <li class="search__nav-item"><a href="#">Gift Boxes</a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            <!-- modal 3 -->
+            <div class="modal55 hidden66">
+                <div class="nav-bar">
+                    <h1>SHOPPING CART</h1>
+                    <div class="icone">
+                        <i class="ri-close-line" id="close"></i>
+                    </div>
+                </div>
+                <div class="layout">
+                    <div class="layout1">
+                        <div class="layout-image">
+                            <img src="" alt="products" id="image52">
+                        </div>
+                        <div class="layout-data">
+                            <a href="#" >
+                                <h3 id="layout-title"></h3>
+                            </a>
+                        </div>
+                    </div>
+                    <div class="layout2">
+                        <div class="btn25">
+                            <button class="minus1">-</button>
+                            <span class="number1">1</span>
+                            <button class="plus1">+</button>
+                        </div>
+                        <div class="layout-p">
+                            <span id="layout-price"></span>
+                        </div>
+                    </div>
+                </div>
+                <div class="ajaxcart__message">
+                    <label for="CartSpecialInstructions" class="ajaxcart__message-label">Anything we need to know about
+                        your order? To
+                        have an item gift wrapped, please write "gift wrap [insert item you'd like wrapped]" or "gift
+                        wrap all items
+                        together" - be very clear please ***Only items $25+ eligible for gift wrap, we cannot wrap art
+                        prints, some
+                        breakables, or sale items - sorry! *** </label>
+                    <textarea name="note" id="CartSpecialInstructions"></textarea>
+                </div>
+                <div class="ajaxcart__footer">
+                    <div class="footer-text">
+                        <p>Shipping & taxes calculated at checkout</p>
+                    </div>
+                    <div class="footer-grande-total">
+                        <p>Subtotal <span>$86.00</span></p>
+                    </div>
+                </div>
+                <div class="ajaxcart-button">
+                    <div class="ajaxcart-Countinue">
+                        <a href="#">Continue shopping</a>
+                    </div>
+                    <div class="ajaxcart-chek">
+                        <button type="submit">Check Out</button>
+                    </div>
+                </div>
+            </div>
+            <!--  -->
+            <div class="nav-list">
+                <ul class="submenu1">
+                    <li><a href="index2.html">NEW!</a></li>
+                    <li><a href="">GIFT<i class="ri-arrow-down-s-line"></i></a>
+                        <ul class="submenu">
+                            <li><a href="#">Gift Lookbooks</a></li>
+                            <li><a href="#">Gift Guides</a></li>
+                            <li><a href="#">Gift Boxes</a></li>
+                            <li><a href="#">Corporate and Bulk</a></li>
+                            <li><a href="#">Gifting</a></li>
+                            <li><a href="#">Gift Card /</a></li>
+                            <li><a href="#">Certificate</a></li>
+                        </ul>
+                    </li>
+                    <li><a href="">CARDS</a></li>
+                    <li><a href="">VERMONT<i class="ri-arrow-down-s-line"></i></a>
+                        <ul class="submenu">
+                            <li><a href="#">Souvenirs / Gift</a></li>
+                            <li><a href="#">Vermont T-shirt</a></li>
+                            <li><a href="#">Made in Vermo</a></li>
+                            <li><a href="#">Vermont Parks</a></li>
+                            <li><a href="#">Collection</a></li>
+                        </ul>
+                    </li>
+                    <li><a href="">THE HOME<i class="ri-arrow-down-s-line"></i></a>
+                        <ul class="submenu">
+                            <li><a href="#">Wall Art</a></li>
+                            <li><a href="#">Frames For Local</a></li>
+                            <li><a href="#">Candles</a></li>
+                            <li><a href="#">desk</a></li>
+                            <li><a href="#">Pottery + Mugs</a></li>
+                            <li><a href="#">Kitchen + Dining</a></li>
+                            <li><a href="#">Barware + Mixer</a></li>
+                            <li><a href="#">Decor</a></li>
+                            <li><a href="#">Blankets + Throws</a></li>
+                        </ul>
+                    </li>
+                    <li><a href="">FUN<i class="ri-arrow-down-s-line"></i></a>
+                        <ul class="submenu">
+                            <li><a href="#">Game + More</a></li>
+                            <li><a href="#">Crafts + DIY Kits</a></li>
+                            <li><a href="#">Puzzles Only</a></li>
+                            <li><a href="#">Books</a></li>
+                            <li><a href="#">Stickers + More</a></li>
+                        </ul>
+                    </li>
+                    <li><a href="">ACCESSORIES<i class="ri-arrow-down-s-line"></i></a>
+                        <ul class="submenu">
+                            <li><a href="#">All Accessories</a></li>
+                            <li><a href="#">Bags + Wallets</a></li>
+                            <li><a href="#">Hats,Caps,and</a></li>
+                            <li><a href="#">Haircare</a></li>
+                            <li><a href="#">Winter Hats and</a></li>
+                            <li><a href="#">Gloves</a></li>
+                            <li><a href="#">socks</a></li>
+                        </ul>
+                    </li>
+                    <li><a href="">JEWELRY</a></li>
+                    <li><a href="">KIDS</a></li>
+                    <li><a href="">FOOD</a></li>
+                    <li><a href="">OTHERS<i class="ri-arrow-down-s-line"></i></a>
+                        <ul class="submenu">
+                            <li><a href="#">bath + body</a></li>
+                            <li><a href="#">shirts and other</a></li>
+                            <li><a href="#">apparel</a></li>
+                        </ul>
+                    </li>
+                    <li><a href="">ABOUT<i class="ri-arrow-down-s-line"></i></a>
+                        <ul class="submenu">
+                            <li><a href="#">Our Story</a></li>
+                            <li><a href="#">Shippin + Delivery</a></li>
+                            <li><a href="#">Maker Inquiry</a></li>
+                            <li><a href="#">Blog: Deer Diary</a></li>
+                            <li><a href="#">Contact Us</a></li>
+                            <li><a href="#">PICK UP FAQ's</a></li>
+                            <li><a href="#">Returns</a></li>
+                        </ul>
+                    </li><br>
+                    <li><a href="">SALE</a></li>
+                </ul>
+            </div>
+        </nav>
+    </header>
+    <content>
+        <!-- slider -->
+        <div class="slider">
+            <div class="slides">
+                <input type="radio" name="radio-btn" id="radio1">
+                <input type="radio" name="radio-btn" id="radio2">
+                <input type="radio" name="radio-btn" id="radio3">
+                <input type="radio" name="radio-btn" id="radio4">
+                <input type="radio" name="radio-btn" id="radio5">
+                <div class="slide first">
+                    <img src="image/image-1.jpg" alt="image-1">
+                    <div class="home-carousel_content hide">
+                        <div class="home-carousel_title">
+                            <h2 class="section-title-text">500+ MARKERS</h2>
+                        </div>
+                        <div class="home-carousel_text">
+                            <p>Supporting American Made means supporting&nbsp;artists,<br> craftsmen, their employees,
+                                their families. The people behind the brands are what keep us going.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="slide">
+                    <img src="image/image-2.jpg" alt="image-2">
+                    <div class="home-carousel_content1 hide">
+                        <div class="home-carousel_title">
+                            <h2 class="section-title-text">FOR THE COMMON GOOD</h2>
+                        </div>
+                        <div class="home-carousel_text">
+                            <p>Choosing to shop&nbsp;American Made is an easy way to&nbsp;support ethical and
+                                sustainable practices.&nbsp;Our small business represents&nbsp;over 400 makers and
+                                manufacturers from throughout the&nbsp;US.&nbsp;</p>
+                        </div>
+                        <div class="c-btn">
+                            <a href="#" class="home-carousel__btn">Check 'em out<i
+                                    class="ri-arrow-right-s-line"></i></a>
+                        </div>
+                    </div>
+                </div>
+                <div class="slide">
+                    <img src="image/image-3.jpg" alt="image-3">
+                    <div class="home-carousel_content2 hide">
+                        <div class="home-carousel_title">
+                            <h2 class="section-title-text">Vermonty Things</h2>
+                        </div>
+                        <div class="home-carousel_text">
+                            <p>We carry a wide selection of Vermont Souvenirs, Made in Vermont goods, and also goods
+                                that make you feel like you're home in Vermont. Check out Vermont Sovenirs at the link
+                                below:</p>
+                        </div>
+                        <div class="c-btn">
+                            <a href="#" class="home-carousel__btn">Vermont Souvenirs<i
+                                    class="ri-arrow-right-s-line"></i></a>
+                        </div>
+                    </div>
+                </div>
+                <div class="slide">
+                    <img src="image/image-4.jpg" alt="image-4">
+                    <div class="home-carousel_content3 hide">
+                        <div class="home-carousel_title">
+                            <h2 class="section-title-text">BEST GIFT GIVER</h2>
+                        </div>
+                        <div class="home-carousel_text">
+                            <p>We have you covered with 1,000s of gift ideas sure to earn you "best gift giver" status.
+                            </p>
+                            <div class="c-btn">
+                                <a href="#" class="home-carousel__btn">Best Gifts<i
+                                        class="ri-arrow-right-s-line"></i></a>
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+                <div class="slide">
+                    <img src="image/image-5.jpg" alt="image-5">
+                    <div class="home-carousel_content4 hide">
+                        <div class="home-carousel_title">
+                            <h2 class="section-title-text">BEST GIFT GIVER</h2>
+                        </div>
+                        <div class="home-carousel_text">
+                            <p>We have you covered with 1,000s of gift ideas sure to earn you "best gift giver" status.
+                            </p>
+                            <div class="c-btn">
+                                <a href="#" class="home-carousel__btn">Best Gifts<i
+                                        class="ri-arrow-right-s-line"></i></a>
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+
+                <div class="navigation-auto">
+                    <div class="auto-btn1"></div>
+                    <div class="auto-btn2"></div>
+                    <div class="auto-btn3"></div>
+                    <div class="auto-btn4"></div>
+                    <div class="auto-btn5"></div>
+                </div>
+                <div class="navigation-manual">
+                    <label for="radio1" class="manual-btn"></label>
+                    <label for="radio2" class="manual-btn"></label>
+                    <label for="radio3" class="manual-btn"></label>
+                    <label for="radio4" class="manual-btn"></label>
+                    <label for="radio5" class="manual-btn"></label>
+                </div>
+            </div>
+            <div class="next-prew btn">
+                <div class="nav-prew">
+                    <i class="ri-arrow-left-s-line" id="prew"></i>
+                </div>
+                <div class="nav-next">
+                    <i class="ri-arrow-right-s-line" id="next"></i>
+                </div>
+
+            </div>
+        </div>
+        <!-- image grid-->
+        <div class="home-image-grid">
+            <div class="contain">
+                <a href="#" class="first-container1">
+                    <div class="u-flex-parent">
+
+                        <img src="image/grid-image/i-1.jpg" alt="i-1">
+                        <div class="home-image-grid__content">
+                            <h2 class="home-image-grid__title">Made in Vermont</h2>
+                            <p class="home-image-grid__desc">Looking for great products made in Vermont? Looking
+                                for<br>Vermont Souvenirs?We have you covered!</p>
+                        </div>
+                    </div>
+                </a>
+
+                <a href="#" class="first-container">
+                    <div class="u-flex-parent1">
+                        <img src="image/grid-image/i-2.jpg" alt="i-2">
+                        <div class="home-image-grid__content1">
+                            <h2 class="home-image-grid__title">BEST GIFTS</h2>
+                            <p class="home-image-grid__desc">We were voted best gifts in Vermont by our community<br>for
+                                two years in a row. With something for everyone on<br>your list and unique ideas to WOW!
+                                - we're here to help!</p>
+                        </div>
+                    </div>
+            </div>
+            </a>
+
+        </div>
+        <!-- common deer data -->
+        <div class="home-promo">
+            <div class="home-promo-item">
+                <div class="home-promo__box">
+                      <h3 class="home-promo__title">Why Common Deer?</h3>
+                      <p class="home-promo__dec">Common Deer was founded in 2013 by two women looking to make<br>American Made more accessible, both for customers looking for<br>quality and transparency, but also for makers looking for those<br>customers that care.</p>
+                      <a href="#" class="home-promo__btn">our story<i class="ri-arrow-right-s-line"></i></a>
+                </div>
+                <div class="home-promo-img">
+                    <img src="image/data common deer/i-1.jpg" alt="">
+                </div>
+            </div>
+        </div>
+        <div class="home-promo1">
+            <div class="home-promo-item1">
+                <div class="home-promo__box1">
+                      <div class="home-promo-data">
+                        <p>210 College St<br>Burlington, VT 05401<br>802.497.0100<br>info@commondeer.com</p>
+                      </div>
+                      <div class="home-promo-data2">
+                         <p class="home-decrp1">Order online for pick-up, local delivery, or shipment. </p>
+                         <p class="home-decrp2">In-store Shopping and pickup hours available at <a href="#">this link</a></p>
+                      </div>
+                </div>
+                <div class="home-promo-img1">
+                    <img src="image/data common deer/i-2.png" alt="i-2">
+                </div>
+            </div>
+        </div>
+        <!-- search bar -->
+         <div class="mc_embed_signup">
+            <label for="Mails">Join the Common Club for deals, stories, and treats!</label>
+            <input type="email" name="Email" id="Mails">
+            <input type="submit" name="subscribe" id="button" value="subscribe">
+         </div>
+    </content>
+    <footer>
+        <div class="footer-box">
+            <div class="footer-content">
+               <div class="logo">
+                 <img src="image/footer logo/logo 1.png" alt="logo">
+               </div>
+               <div class="decp-box">
+                 <ul>
+                    <li><a href="#">About</a></li>
+                    <li><a href="#">Contact Us</a></li>
+                    <li><a href="#">Exchange,Shipping Pickup,etc</a></li>
+                    <li><a href="#">New Maker Application</a></li>
+                    <li><a href="#">Jobs</a></li>
+                    <li><a href="#">Terms & Conditions</a></li>
+                    <li><a href="#">Privacy Policy</a></li>
+                 </ul>
+               </div>
+               <div class="decp-box1">
+                <p>Our woman-owned small business and<br>the family of makers we support rely on people like you to stay afloat. </p>
+                <p>Thank you for celebrating American Made with us.</p>
+                <p><a href="#">our current "open" hours</a></p>
+               </div>
+               <div class="decp-box2">
+                <p>210 College Street, Suite 101<br>Burlington, VT Vermont<br>05401 United States</p>
+                <ul>
+                    <li><a href="#"><i class="ri-facebook-line"></i></a></li>
+                    <li><a href="#"><i class="ri-instagram-line"></i></a></li>
+                </ul>
+               </div>
+            </div>
+            <div class="footer-copyright">
+                <p>© 2024, Common Deer<br><a href="">POS and Ecommerce by Shopify</a></p>
+            </div>
+        </div>
+
+    </footer>
+    <script src="modal.js"></script>
+    <script src="slider.js"></script>
+</body> 
+
+</html>
